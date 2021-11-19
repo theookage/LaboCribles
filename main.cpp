@@ -22,6 +22,7 @@ Compilateur    : Mingw-w64 g++ 11.2.0
 #include "countListTableau.h"
 #include "saisieVerification.h"
 #include "initTableau.h"
+#include "checkNbPremier.h"
 
 using namespace std;
 
@@ -31,11 +32,14 @@ int main() {
    const bool valeur = true;    //initTableau
    const int space = 3;          //setw()
    size_t taille = size_t(testSaisie(MIN, MAX));
-
+	int tailleInt = static_cast<int>(taille);
 	bool tab[taille];
 
    initTableau(tab, taille, valeur);
-	afficherCribles(tab, taille, 2, space);
+	
+	criblage(tab, tailleInt);
+	afficherCribles(tab, taille, 10, space);
+
 
    cout << "Il y a " << countTrueElement(tab, taille)
         << " nombre premier" << endl;
