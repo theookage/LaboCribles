@@ -14,7 +14,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ff33bb3-d061-4616-8509-25980fef4bf9" name="Changes" comment="" />
+    <list default="true" id="5ff33bb3-d061-4616-8509-25980fef4bf9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/nombrePremier.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/nombrePremier.cpp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,11 +56,6 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -69,7 +66,8 @@
       <option name="presentableId" value="Default" />
       <updated>1637310511549</updated>
       <workItem from="1637310514176" duration="598000" />
-      <workItem from="1637316437653" duration="599000" />
+      <workItem from="1637316437653" duration="716000" />
+      <workItem from="1637317520352" duration="4156000" />
     </task>
     <servers />
   </component>
