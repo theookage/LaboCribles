@@ -200,6 +200,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LaboCribles.dir\build.make CMakeFiles/LaboCribles.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+saisieVerification.obj: saisieVerification.cpp.obj
+.PHONY : saisieVerification.obj
+
+# target to build an object file
+saisieVerification.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LaboCribles.dir\build.make CMakeFiles/LaboCribles.dir/saisieVerification.cpp.obj
+.PHONY : saisieVerification.cpp.obj
+
+saisieVerification.i: saisieVerification.cpp.i
+.PHONY : saisieVerification.i
+
+# target to preprocess a source file
+saisieVerification.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LaboCribles.dir\build.make CMakeFiles/LaboCribles.dir/saisieVerification.cpp.i
+.PHONY : saisieVerification.cpp.i
+
+saisieVerification.s: saisieVerification.cpp.s
+.PHONY : saisieVerification.s
+
+# target to generate assembly for a file
+saisieVerification.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LaboCribles.dir\build.make CMakeFiles/LaboCribles.dir/saisieVerification.cpp.s
+.PHONY : saisieVerification.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -218,6 +242,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... saisieVerification.obj
+	@echo ... saisieVerification.i
+	@echo ... saisieVerification.s
 .PHONY : help
 
 

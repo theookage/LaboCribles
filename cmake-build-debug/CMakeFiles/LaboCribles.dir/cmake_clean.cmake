@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/LaboCribles.dir/affichageTableau.cpp.obj"
   "CMakeFiles/LaboCribles.dir/countListTableau.cpp.obj"
   "CMakeFiles/LaboCribles.dir/main.cpp.obj"
+  "CMakeFiles/LaboCribles.dir/saisieVerification.cpp.obj"
   "LaboCribles.exe"
   "LaboCribles.exe.manifest"
   "LaboCribles.pdb"

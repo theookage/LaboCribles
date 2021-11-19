@@ -97,6 +97,12 @@
 		<Unit filename="C:/HEIG/PRG/CLionProjects/LaboCribles/main.cpp">
 			<Option target="LaboCribles"/>
 		</Unit>
+		<Unit filename="C:/HEIG/PRG/CLionProjects/LaboCribles/saisieVerification.cpp">
+			<Option target="LaboCribles"/>
+		</Unit>
+		<Unit filename="C:/HEIG/PRG/CLionProjects/LaboCribles/saisieVerification.h">
+			<Option target="LaboCribles"/>
+		</Unit>
 		<Unit filename="C:/HEIG/PRG/CLionProjects/LaboCribles/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
