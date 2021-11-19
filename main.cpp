@@ -24,12 +24,14 @@ Compilateur    : Mingw-w64 g++ 11.2.0
 using namespace std;
 
 int main() {
-
-	bool tab[3] = {1, 0, 1};
+   int saisieUser=0;
+   cin>>saisieUser;
+	bool tab[saisieUser] = {1, 0, 1};
 
 	afficherCribles(tab, 3, 2, 3);
 
-
+   cout << "il y a " << countTrueElement(tab[3], ) << " elements" << endl;
+   listTrueElement()
 	cout << "Merci d'avoir joue. Appuyez sur ENTER pour terminer le programme...";
 	cin.ignore(numeric_limits<streamsize>::max(), '\n');
 	return EXIT_SUCCESS;
