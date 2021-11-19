@@ -6,3 +6,6 @@
 #define LABOCRIBLES_COUNTLISTTABLEAU_H
 
 #endif //LABOCRIBLES_COUNTLISTTABLEAU_H
+
+size_t countTrueElement(const bool tab[], size_t taille);
+void listTrueElement( const bool tab[], size_t taille, int espace);

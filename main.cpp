@@ -19,6 +19,7 @@ Compilateur    : Mingw-w64 g++ 11.2.0
 #include <iostream>
 #include <limits>
 #include "affichageTableau.h"
+#include "countListTableau.h"
 
 using namespace std;
 
