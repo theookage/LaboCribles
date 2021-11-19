@@ -152,6 +152,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LaboCribles.dir\build.make CMakeFiles/LaboCribles.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+nombrePremier.obj: nombrePremier.cpp.obj
+.PHONY : nombrePremier.obj
+
+# target to build an object file
+nombrePremier.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LaboCribles.dir\build.make CMakeFiles/LaboCribles.dir/nombrePremier.cpp.obj
+.PHONY : nombrePremier.cpp.obj
+
+nombrePremier.i: nombrePremier.cpp.i
+.PHONY : nombrePremier.i
+
+# target to preprocess a source file
+nombrePremier.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LaboCribles.dir\build.make CMakeFiles/LaboCribles.dir/nombrePremier.cpp.i
+.PHONY : nombrePremier.cpp.i
+
+nombrePremier.s: nombrePremier.cpp.s
+.PHONY : nombrePremier.s
+
+# target to generate assembly for a file
+nombrePremier.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LaboCribles.dir\build.make CMakeFiles/LaboCribles.dir/nombrePremier.cpp.s
+.PHONY : nombrePremier.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -164,6 +188,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... nombrePremier.obj
+	@echo ... nombrePremier.i
+	@echo ... nombrePremier.s
 .PHONY : help
 
 

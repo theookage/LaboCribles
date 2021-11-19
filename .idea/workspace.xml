@@ -44,12 +44,12 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C/C++" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+    <configuration name="LaboCribles" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LaboCribles" TARGET_NAME="LaboCribles" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LaboCribles" RUN_TARGET_NAME="LaboCribles">
       <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LaboCribles" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LaboCribles" TARGET_NAME="LaboCribles" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LaboCribles" RUN_TARGET_NAME="LaboCribles">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -69,6 +69,7 @@
       <option name="presentableId" value="Default" />
       <updated>1637310511549</updated>
       <workItem from="1637310514176" duration="598000" />
+      <workItem from="1637316437653" duration="599000" />
     </task>
     <servers />
   </component>

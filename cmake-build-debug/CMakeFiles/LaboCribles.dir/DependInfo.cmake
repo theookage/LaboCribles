@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/HEIG/PRG/CLionProjects/LaboCribles/main.cpp" "C:/HEIG/PRG/CLionProjects/LaboCribles/cmake-build-debug/CMakeFiles/LaboCribles.dir/main.cpp.obj"
+  "C:/HEIG/PRG/CLionProjects/LaboCribles/nombrePremier.cpp" "C:/HEIG/PRG/CLionProjects/LaboCribles/cmake-build-debug/CMakeFiles/LaboCribles.dir/nombrePremier.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

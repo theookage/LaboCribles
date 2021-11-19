@@ -85,6 +85,9 @@
 		<Unit filename="C:/HEIG/PRG/CLionProjects/LaboCribles/main.cpp">
 			<Option target="LaboCribles"/>
 		</Unit>
+		<Unit filename="C:/HEIG/PRG/CLionProjects/LaboCribles/nombrePremier.cpp">
+			<Option target="LaboCribles"/>
+		</Unit>
 		<Unit filename="C:/HEIG/PRG/CLionProjects/LaboCribles/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
