@@ -18,7 +18,7 @@ Compilateur : Mingw-w64 g++ 11.2.0
 #include <cmath>
 using namespace std;
 
-size_t countTrueElement(const bool tab[], size_t taille{
+size_t countTrueElement(const bool tab[], size_t taille){
    size_t count = 0;
    for (size_t i = 0; i < taille; ++i) {
       if (tab[i]) {
@@ -27,7 +27,6 @@ size_t countTrueElement(const bool tab[], size_t taille{
    }
    return count;
 }
-
 void listTrueElement( const bool tab[], size_t taille, int espace) {
    cout<<setw(espace);
    for (size_t i = 1; i < taille; ++i) {

@@ -82,7 +82,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/HEIG/PRG/CLionProjects/LaboCribles/CountListTableau.cpp">
+		<Unit filename="C:/HEIG/PRG/CLionProjects/LaboCribles/affichageTableau.cpp">
+			<Option target="LaboCribles"/>
+		</Unit>
+		<Unit filename="C:/HEIG/PRG/CLionProjects/LaboCribles/affichageTableau.h">
+			<Option target="LaboCribles"/>
+		</Unit>
+		<Unit filename="C:/HEIG/PRG/CLionProjects/LaboCribles/countListTableau.cpp">
+			<Option target="LaboCribles"/>
+		</Unit>
+		<Unit filename="C:/HEIG/PRG/CLionProjects/LaboCribles/countListTableau.h">
 			<Option target="LaboCribles"/>
 		</Unit>
 		<Unit filename="C:/HEIG/PRG/CLionProjects/LaboCribles/main.cpp">

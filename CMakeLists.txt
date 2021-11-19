@@ -3,4 +3,5 @@ project(LaboCribles)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(LaboCribles main.cpp CountListTableau.cpp)
+add_executable(LaboCribles main.cpp countListTableau.cpp affichageTableau.cpp
+        affichageTableau.h countListTableau.h)
