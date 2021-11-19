@@ -128,6 +128,30 @@ LaboCribles/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LaboCribles.dir\build.make CMakeFiles/LaboCribles.dir/build
 .PHONY : LaboCribles/fast
 
+InitTableau.obj: InitTableau.cpp.obj
+.PHONY : InitTableau.obj
+
+# target to build an object file
+InitTableau.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LaboCribles.dir\build.make CMakeFiles/LaboCribles.dir/InitTableau.cpp.obj
+.PHONY : InitTableau.cpp.obj
+
+InitTableau.i: InitTableau.cpp.i
+.PHONY : InitTableau.i
+
+# target to preprocess a source file
+InitTableau.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LaboCribles.dir\build.make CMakeFiles/LaboCribles.dir/InitTableau.cpp.i
+.PHONY : InitTableau.cpp.i
+
+InitTableau.s: InitTableau.cpp.s
+.PHONY : InitTableau.s
+
+# target to generate assembly for a file
+InitTableau.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LaboCribles.dir\build.make CMakeFiles/LaboCribles.dir/InitTableau.cpp.s
+.PHONY : InitTableau.cpp.s
+
 affichageTableau.obj: affichageTableau.cpp.obj
 .PHONY : affichageTableau.obj
 
@@ -233,6 +257,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... LaboCribles
+	@echo ... InitTableau.obj
+	@echo ... InitTableau.i
+	@echo ... InitTableau.s
 	@echo ... affichageTableau.obj
 	@echo ... affichageTableau.i
 	@echo ... affichageTableau.s

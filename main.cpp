@@ -21,20 +21,26 @@ Compilateur    : Mingw-w64 g++ 11.2.0
 #include "affichageTableau.h"
 #include "countListTableau.h"
 #include "saisieVerification.h"
+#include "initTableau.h"
 
 using namespace std;
 
 int main() {
-   const int MIN = 2;
-   const int MAX = 100;
-   int saisieUser = testSaisie(MIN, MAX);
+   const unsigned int MIN = 2;   //testSaisie
+   const unsigned int MAX = 100; //testSaisie
+   const bool valeur = true;    //initTableau
+   const int space = 3;          //setw()
+   size_t taille = size_t(testSaisie(MIN, MAX));
 
-	bool tab[saisieUser];
+	bool tab[taille];
 
-	afficherCribles(tab, 3, 2, 3);
+   initTableau(tab, taille, valeur);
+	afficherCribles(tab, taille, 2, space);
 
-   cout << "il y a " << countTrueElement(tab[3], ) << " elements" << endl;
-   listTrueElement();
+   cout << "Il y a " << countTrueElement(tab, taille)
+        << " nombre premier" << endl;
+
+   listTrueElement(tab, taille, space, 3);
 	cout << "Merci d'avoir joue. Appuyez sur ENTER pour terminer le programme...";
 	cin.ignore(numeric_limits<streamsize>::max(), '\n');
 	return EXIT_SUCCESS;

@@ -5,4 +5,4 @@ set(CMAKE_CXX_STANDARD 20)
 
 add_executable(LaboCribles main.cpp countListTableau.cpp countListTableau.h
         affichageTableau.cpp affichageTableau.h saisieVerification.cpp
-        saisieVerification.h)
+        saisieVerification.h InitTableau.cpp initTableau.h)
