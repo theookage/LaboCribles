@@ -32,12 +32,11 @@ int main() {
    const bool valeur = true;    //initTableau
    const int space = 3;          //setw()
    size_t taille = size_t(testSaisie(MIN, MAX));
-	int tailleInt = static_cast<int>(taille);
 	bool tab[taille];
 
    initTableau(tab, taille, valeur);
 	
-	criblage(tab, tailleInt);
+	criblage(tab, taille);
 	afficherCribles(tab, taille, 10, space);
 
 
@@ -45,6 +44,7 @@ int main() {
         << " nombre premier" << endl;
 
    listTrueElement(tab, taille, space, 3);
+
 	cout << "Merci d'avoir joue. Appuyez sur ENTER pour terminer le programme...";
 	cin.ignore(numeric_limits<streamsize>::max(), '\n');
 	return EXIT_SUCCESS;

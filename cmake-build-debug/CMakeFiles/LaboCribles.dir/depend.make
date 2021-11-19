@@ -7,11 +7,15 @@ CMakeFiles/LaboCribles.dir/InitTableau.cpp.obj: \
 CMakeFiles/LaboCribles.dir/affichageTableau.cpp.obj: \
  ../affichageTableau.cpp \
  ../affichageTableau.h
+CMakeFiles/LaboCribles.dir/checkNbPremier.cpp.obj: \
+ ../checkNbPremier.cpp \
+ ../checkNbPremier.h
 CMakeFiles/LaboCribles.dir/countListTableau.cpp.obj: \
  ../countListTableau.cpp \
  ../countListTableau.h
 CMakeFiles/LaboCribles.dir/main.cpp.obj: \
  ../affichageTableau.h \
+ ../checkNbPremier.h \
  ../countListTableau.h \
  ../initTableau.h \
  ../main.cpp \

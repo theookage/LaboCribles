@@ -4,9 +4,9 @@
 #include <cstdlib>
 #include <iostream>
 
-void criblage(bool tab[], int taille);
+void criblage(bool tab[], size_t taille);
 
-void criblageMult(int taille, bool tab[], int multiplicateur);
+void criblageMult(bool tab[]);
 
-int prochainMult(const bool tab[], int taille, int multActuel);
+size_t prochainMult(const bool tab[]);
 #endif //LABOCRIBLES_CHECKNBPREMIER_H

@@ -176,6 +176,30 @@ affichageTableau.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LaboCribles.dir\build.make CMakeFiles/LaboCribles.dir/affichageTableau.cpp.s
 .PHONY : affichageTableau.cpp.s
 
+checkNbPremier.obj: checkNbPremier.cpp.obj
+.PHONY : checkNbPremier.obj
+
+# target to build an object file
+checkNbPremier.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LaboCribles.dir\build.make CMakeFiles/LaboCribles.dir/checkNbPremier.cpp.obj
+.PHONY : checkNbPremier.cpp.obj
+
+checkNbPremier.i: checkNbPremier.cpp.i
+.PHONY : checkNbPremier.i
+
+# target to preprocess a source file
+checkNbPremier.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LaboCribles.dir\build.make CMakeFiles/LaboCribles.dir/checkNbPremier.cpp.i
+.PHONY : checkNbPremier.cpp.i
+
+checkNbPremier.s: checkNbPremier.cpp.s
+.PHONY : checkNbPremier.s
+
+# target to generate assembly for a file
+checkNbPremier.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LaboCribles.dir\build.make CMakeFiles/LaboCribles.dir/checkNbPremier.cpp.s
+.PHONY : checkNbPremier.cpp.s
+
 countListTableau.obj: countListTableau.cpp.obj
 .PHONY : countListTableau.obj
 
@@ -263,6 +287,9 @@ help:
 	@echo ... affichageTableau.obj
 	@echo ... affichageTableau.i
 	@echo ... affichageTableau.s
+	@echo ... checkNbPremier.obj
+	@echo ... checkNbPremier.i
+	@echo ... checkNbPremier.s
 	@echo ... countListTableau.obj
 	@echo ... countListTableau.i
 	@echo ... countListTableau.s

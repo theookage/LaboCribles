@@ -94,6 +94,12 @@
 		<Unit filename="C:/HEIG/PRG/CLionProjects/LaboCribles/affichageTableau.h">
 			<Option target="LaboCribles"/>
 		</Unit>
+		<Unit filename="C:/HEIG/PRG/CLionProjects/LaboCribles/checkNbPremier.cpp">
+			<Option target="LaboCribles"/>
+		</Unit>
+		<Unit filename="C:/HEIG/PRG/CLionProjects/LaboCribles/checkNbPremier.h">
+			<Option target="LaboCribles"/>
+		</Unit>
 		<Unit filename="C:/HEIG/PRG/CLionProjects/LaboCribles/countListTableau.cpp">
 			<Option target="LaboCribles"/>
 		</Unit>
