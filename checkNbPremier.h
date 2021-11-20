@@ -6,7 +6,7 @@
 
 void criblage(bool tab[], size_t taille);
 
-void criblageMult(bool tab[]);
+void criblageDiv(bool tab[]);
 
-size_t prochainMult(const bool tab[]);
+size_t prochainDiv(const bool tab[]);
 #endif //LABOCRIBLES_CHECKNBPREMIER_H

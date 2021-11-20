@@ -22,9 +22,6 @@ Compilateur    : Mingw-w64 g++ 11.2.0
 #include <iostream>
 #include <iomanip>
 
-void afficherCribles(const bool tab[],
-							size_t taille,
-							int nbColonnes,
-							int espacement);
+void afficherCribles(const bool tab[], size_t taille, int nbColonnes, int space);
 
 #endif //LABOCRIBLES_AFFICHAGETABLEAU_H

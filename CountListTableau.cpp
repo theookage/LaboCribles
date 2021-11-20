@@ -27,7 +27,7 @@ size_t countTrueElement(const bool tab[], size_t taille){
    }
    return count;
 }
-void listTrueElement(const bool tab[], size_t taille, int espace, int nbParLigne) {
+void listTrueElement(const bool tab[], size_t taille, int nbParLigne, int espace) {
    int count=0;
    for (size_t i = 1; i < taille; ++i) {
       if(tab[i]) {

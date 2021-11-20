@@ -3,28 +3,30 @@
 
 using namespace std;
 size_t tailleCriblage;
-size_t multiplicateur = 2;  // commence a 2$
+size_t diviseur = 2;  // commence a 2$
 
-void criblage(bool tab[], size_t taille) { // size t ?
+void criblage(bool tab[], size_t taille) {
 	tailleCriblage = taille;
-	while(multiplicateur < tailleCriblage) {  // tester taille / 2 pour opti
-		criblageMult(tab);
-      multiplicateur = prochainMult(tab);
+   tab[0] = true;
+   tab[1] = true;
+	while(diviseur * diviseur < tailleCriblage) {
+		criblageDiv(tab);
+      diviseur = prochainDiv(tab);
 	}
 }
 
-void criblageMult(bool tab[]){
-	for(size_t i = multiplicateur - 1; i < tailleCriblage; ++i){
-		if ((i + 1) % multiplicateur == 0){
-			tab[i] = false;
+void criblageDiv(bool tab[]){
+	for(size_t i = diviseur; i <= tailleCriblage; ++i){
+		if (i % diviseur == 0 && i != diviseur){
+			tab[i-1] = false;
 		}
 	}
 }
 
-size_t prochainMult(const bool tab[]){
-	for(size_t i = multiplicateur; i < tailleCriblage; ++i){ // [1, 1, 1, 0, 1]
+size_t prochainDiv(const bool tab[]){
+	for(size_t i = diviseur; i < tailleCriblage; ++i){
 		if(tab[i]){
-			return i + 1;
+			return ++i;
 		}
 	}
 }
