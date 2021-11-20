@@ -14,16 +14,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ff33bb3-d061-4616-8509-25980fef4bf9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/affichageTableau.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/affichageTableau.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/affichageTableau.h" beforeDir="false" afterPath="$PROJECT_DIR$/affichageTableau.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkNbPremier.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/checkNbPremier.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkNbPremier.h" beforeDir="false" afterPath="$PROJECT_DIR$/checkNbPremier.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/countListTableau.h" beforeDir="false" afterPath="$PROJECT_DIR$/countListTableau.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-    </list>
+    <list default="true" id="5ff33bb3-d061-4616-8509-25980fef4bf9" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,7 +75,7 @@
       <workItem from="1637328109409" duration="2549000" />
       <workItem from="1637330690427" duration="3661000" />
       <workItem from="1637343445312" duration="1475000" />
-      <workItem from="1637400329702" duration="1784000" />
+      <workItem from="1637400329702" duration="2103000" />
     </task>
     <servers />
   </component>

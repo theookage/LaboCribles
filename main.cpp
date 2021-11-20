@@ -42,12 +42,14 @@ int main() {
    //--------------------------------------
    // Saisie User et cération tableau
    //--------------------------------------
+
    cout << "Nombre de valeur [" << MIN << " - " << MAX << "] : ";
    size_t taille = size_t(testSaisie(MIN, MAX));
 	bool tab[taille];
    //--------------------------------------
    // init tableau et affichage
    //--------------------------------------
+
    cout << endl << "initialisation du tableau... " << endl;
    initTableau(tab, taille, valeur);
    afficherCribles(tab, taille, nbcolonne, space);
@@ -55,6 +57,7 @@ int main() {
    //--------------------------------------
    // modif tableau et affichage
    //--------------------------------------
+   
    cout << endl << "modification du tableau... " << endl;
 	criblage(tab, taille);
 	afficherCribles(tab, taille, nbcolonne, space);
