@@ -1,14 +1,18 @@
 /*
-------------------------------------------------------
-Nom du fichier : <nom du fichier>.<xxx>
-Auteur(s) : Theo Coutaudier
-Date creation : <jj.mm.aaaa>
-Nom Labo :
-Description :
+-----------------------------------------------------------------------------------
+Nom du fichier :  saisieIsCorrect.cpp
+Nom du labo    :  Labo 6 - Cribles
 
-Remarque(s) :
-Compilateur : Mingw-w64 g++ 11.2.0
-------------------------------------------------------
+Auteur(s)      :  Théo Coutaudier et Grégoire Guyot
+
+Date creation  :  12-11-2021
+
+Description    :  Ajoute une valeur par défault les cases du tableau
+
+Remarque(s)    :  Ne peut remplir que les valeurs par défault true ou false
+
+Compilateur    :  Mingw-w64 g++ 11.1.0
+-----------------------------------------------------------------------------------
 */
 
 #include <cstdlib>

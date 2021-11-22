@@ -16,9 +16,11 @@
   <component name="ChangeListManager">
     <list default="true" id="5ff33bb3-d061-4616-8509-25980fef4bf9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InitTableau.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/InitTableau.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/countListTableau.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/countListTableau.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/countListTableau.h" beforeDir="false" afterPath="$PROJECT_DIR$/countListTableau.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/initTableau.h" beforeDir="false" afterPath="$PROJECT_DIR$/initTableau.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/saisieVerification.h" beforeDir="false" afterPath="$PROJECT_DIR$/saisieVerification.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,9 +56,9 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
   </component>
@@ -76,7 +78,8 @@
       <workItem from="1637330690427" duration="3661000" />
       <workItem from="1637343445312" duration="1475000" />
       <workItem from="1637400329702" duration="3071000" />
-      <workItem from="1637532020216" duration="1075000" />
+      <workItem from="1637532020216" duration="1111000" />
+      <workItem from="1637562385456" duration="814000" />
     </task>
     <servers />
   </component>
