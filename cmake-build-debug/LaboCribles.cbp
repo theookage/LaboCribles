@@ -82,6 +82,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/HEIG/PRG/CLionProjects/LaboCribles/CountListTableau.cpp">
+			<Option target="LaboCribles"/>
+		</Unit>
+		<Unit filename="C:/HEIG/PRG/CLionProjects/LaboCribles/CountListTableau.h">
+			<Option target="LaboCribles"/>
+		</Unit>
 		<Unit filename="C:/HEIG/PRG/CLionProjects/LaboCribles/InitTableau.cpp">
 			<Option target="LaboCribles"/>
 		</Unit>
@@ -98,9 +104,6 @@
 			<Option target="LaboCribles"/>
 		</Unit>
 		<Unit filename="C:/HEIG/PRG/CLionProjects/LaboCribles/checkNbPremier.h">
-			<Option target="LaboCribles"/>
-		</Unit>
-		<Unit filename="C:/HEIG/PRG/CLionProjects/LaboCribles/countListTableau.cpp">
 			<Option target="LaboCribles"/>
 		</Unit>
 		<Unit filename="C:/HEIG/PRG/CLionProjects/LaboCribles/countListTableau.h">

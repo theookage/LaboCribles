@@ -128,6 +128,30 @@ LaboCribles/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LaboCribles.dir\build.make CMakeFiles/LaboCribles.dir/build
 .PHONY : LaboCribles/fast
 
+CountListTableau.obj: CountListTableau.cpp.obj
+.PHONY : CountListTableau.obj
+
+# target to build an object file
+CountListTableau.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LaboCribles.dir\build.make CMakeFiles/LaboCribles.dir/CountListTableau.cpp.obj
+.PHONY : CountListTableau.cpp.obj
+
+CountListTableau.i: CountListTableau.cpp.i
+.PHONY : CountListTableau.i
+
+# target to preprocess a source file
+CountListTableau.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LaboCribles.dir\build.make CMakeFiles/LaboCribles.dir/CountListTableau.cpp.i
+.PHONY : CountListTableau.cpp.i
+
+CountListTableau.s: CountListTableau.cpp.s
+.PHONY : CountListTableau.s
+
+# target to generate assembly for a file
+CountListTableau.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LaboCribles.dir\build.make CMakeFiles/LaboCribles.dir/CountListTableau.cpp.s
+.PHONY : CountListTableau.cpp.s
+
 InitTableau.obj: InitTableau.cpp.obj
 .PHONY : InitTableau.obj
 
@@ -200,30 +224,6 @@ checkNbPremier.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LaboCribles.dir\build.make CMakeFiles/LaboCribles.dir/checkNbPremier.cpp.s
 .PHONY : checkNbPremier.cpp.s
 
-countListTableau.obj: countListTableau.cpp.obj
-.PHONY : countListTableau.obj
-
-# target to build an object file
-countListTableau.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LaboCribles.dir\build.make CMakeFiles/LaboCribles.dir/countListTableau.cpp.obj
-.PHONY : countListTableau.cpp.obj
-
-countListTableau.i: countListTableau.cpp.i
-.PHONY : countListTableau.i
-
-# target to preprocess a source file
-countListTableau.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LaboCribles.dir\build.make CMakeFiles/LaboCribles.dir/countListTableau.cpp.i
-.PHONY : countListTableau.cpp.i
-
-countListTableau.s: countListTableau.cpp.s
-.PHONY : countListTableau.s
-
-# target to generate assembly for a file
-countListTableau.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LaboCribles.dir\build.make CMakeFiles/LaboCribles.dir/countListTableau.cpp.s
-.PHONY : countListTableau.cpp.s
-
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -281,6 +281,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... LaboCribles
+	@echo ... CountListTableau.obj
+	@echo ... CountListTableau.i
+	@echo ... CountListTableau.s
 	@echo ... InitTableau.obj
 	@echo ... InitTableau.i
 	@echo ... InitTableau.s
@@ -290,9 +293,6 @@ help:
 	@echo ... checkNbPremier.obj
 	@echo ... checkNbPremier.i
 	@echo ... checkNbPremier.s
-	@echo ... countListTableau.obj
-	@echo ... countListTableau.i
-	@echo ... countListTableau.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
