@@ -16,6 +16,9 @@ Compilateur    : Mingw-w64 g++ 11.2.0
 -----------------------------------------------------------------------------------
 */
 
+#include <cstdlib>
+#include <iostream>
+#include <iomanip>
 #include "affichageTableau.h"
 
 using namespace std;

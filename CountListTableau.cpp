@@ -1,6 +1,6 @@
 /*
 -----------------------------------------------------------------------------------
-Nom du fichier :  coutListTableau.cpp
+Nom du fichier :  countListTableau.cpp
 Nom du Labo    :  Labo 6 - Cribles
 
 Auteur(s)      :  Grégoire Guyot et Théo Coutaudier

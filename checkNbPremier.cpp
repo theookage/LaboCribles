@@ -19,18 +19,19 @@ Compilateur    : Mingw-w64 g++ 11.2.0
 -----------------------------------------------------------------------------------
 */
 
+#include <cstdlib>
 #include "checkNbPremier.h"
 
 using namespace std;
 
-size_t tailleCriblage;
+size_t tailleTableau;
 size_t diviseur = 2;  //Commence à 2
 
 void criblage(bool tab[], size_t taille){
-	tailleCriblage = taille;
+   tailleTableau = taille;
    //Exception de tab[0] qui n'est pas prise en compte par criblageDiv
    tab[0] = false;
-	while(diviseur * diviseur < tailleCriblage){
+	while(diviseur * diviseur < tailleTableau){
 		criblageDiv(tab);
       diviseur = prochainDiv(tab);
 	}
@@ -38,7 +39,7 @@ void criblage(bool tab[], size_t taille){
 }
 
 void criblageDiv(bool tab[]){
-	for(size_t i = diviseur; i <= tailleCriblage; ++i){
+	for(size_t i = diviseur; i <= tailleTableau; ++i){
 		if (i % diviseur == 0 && i != diviseur){
 			tab[i-1] = false;
 		}
@@ -46,7 +47,7 @@ void criblageDiv(bool tab[]){
 }
 
 size_t prochainDiv(const bool tab[]){
-	for(size_t i = diviseur; i < tailleCriblage; ++i){
+	for(size_t i = diviseur; i < tailleTableau; ++i){
 		if(tab[i]){
 			return ++i;
 		}

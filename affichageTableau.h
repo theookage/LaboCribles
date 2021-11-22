@@ -19,9 +19,6 @@ Compilateur    : Mingw-w64 g++ 11.2.0
 #ifndef LABOCRIBLES_AFFICHAGETABLEAU_H
 #define LABOCRIBLES_AFFICHAGETABLEAU_H
 
-#include <cstdlib>
-#include <iostream>
-#include <iomanip>
 
 /// Nom : afficherCribles
 /// But : afficher le tableau

@@ -22,8 +22,6 @@ Compilateur    : Mingw-w64 g++ 11.2.0
 #ifndef LABOCRIBLES_CHECKNBPREMIER_H
 #define LABOCRIBLES_CHECKNBPREMIER_H
 
-#include <cstdlib>
-#include <iostream>
 
 /// Nom : criblage
 /// But : crible le tableau en commençant par la valeur 2

@@ -51,6 +51,8 @@ int main() {
    //--------------------------------------
 
    cout << "Nombre de valeurs [" << MIN << " - " << MAX << "] : ";
+   //message d'avertissement volontairement ignoré pour size_t
+   //car la valeur va être réutilisé dans le futur en size_t
    size_t taille = size_t(testSaisie(MIN, MAX));
 	bool tab[taille];
 

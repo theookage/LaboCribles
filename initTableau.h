@@ -17,6 +17,7 @@ Compilateur :  Mingw-w64 g++ 11.1.0
 
 #ifndef LABOCRIBLES_INITTABLEAU_H
 #define LABOCRIBLES_INITTABLEAU_H
+
 ///
 /// Nom : initTableau
 /// But : Ajoute une valeur par défault à toute les cases d'un tableau booléen
