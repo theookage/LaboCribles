@@ -34,10 +34,11 @@ size_t countTrueElement(const bool tab[], size_t taille){
    }
    return count;
 }
-void listTrueElement(const bool tab[], size_t taille, int nbParLigne, int espace) {
+void listBoolElement(const bool tab[], size_t taille, int nbParLigne, int espace,
+                     bool valeur) {
    int count = 0;
    for (size_t i = 1; i < taille; ++i) {
-      if(tab[i]) {
+      if(tab[i]==valeur) {
             cout << setw(espace) << i + 1;
             count++;
             //vérifie si le programme doit passé à la ligne

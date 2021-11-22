@@ -76,7 +76,8 @@ int main() {
 
    cout << endl << "Il y a " << countTrueElement(tab, taille)
         << " nombre premier" << endl;
-   listTrueElement(tab, taille, nbcolonne , space); //liste de tout les nb premier
+   //liste de tout les nombres premier
+   listBoolElement(tab, taille, nbcolonne , space, valeur);
 
    //--------------------------------------
    // Fin de programme

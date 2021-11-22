@@ -31,15 +31,16 @@ Compilateur    :  Mingw-w64 g++ 11.2.0
 size_t countTrueElement(const bool tab[], size_t taille);
 
 ///
-/// Nom : listTrueElement
-/// But : Affiche la position de chaque élément true
+/// Nom : listBoolElement
+/// But : Affiche la position de chaque élément à true ou false
 ///
 /// \param tab          tableau (bool)
 /// \param taille       taille du tableau (size_t)
 /// \param nbParLigne   Nombre d'élément par ligne
 /// \param espace       espace d'affichage entre chaque élément (int)
-///
+/// \param valeur       bool indiquant s'il faut récupérer les valeurs true ou false
 /// Exception : n/a
-void listTrueElement(const bool tab[], size_t taille, int nbcolonne, int espace);
+void listBoolElement(const bool tab[], size_t taille, int nbcolonne, int espace,
+                     bool valeur);
 
 #endif //LABOCRIBLES_COUNTLISTTABLEAU_H
