@@ -60,7 +60,7 @@ int main() {
 
    cout << endl << "initialisation du tableau... " << endl;
    initTableau(tab, taille, valeur); //initialisation du tableau
-   afficherCribles(tab, taille, taille, space); //affichage du tableau
+   afficherCribles(tab, taille, nbcolonne, space); //affichage du tableau
 
    //--------------------------------------
    // modif tableau et affichage
