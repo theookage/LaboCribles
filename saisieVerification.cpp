@@ -6,7 +6,7 @@ Nom du labo    : Labo 6 - Cribles
 
 Auteur(s)      :  Grégoire Guyot et Théo Coutaudier
 
-Date creation  : 12.11.2021
+Date creation  : 19-11-2021
 
 Description    : Vérifie que la saisie de l'utilisateur est valide et conforme à la
                  saisie demandés

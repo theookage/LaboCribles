@@ -5,7 +5,7 @@ Nom du Labo    : Labo 6 - Cribles
 
 Auteur(s)      : Grégoire Guyot et Théo Coutaudier
 
-Date creation  : 10-11-2021
+Date creation  : 19-11-2021
 
 Description    : Utilise le théorème de Erathostène pour cribler le tableau et
  					  mettre à false les nombre qui ne sont pas premier. Commence par 2
@@ -52,3 +52,6 @@ size_t prochainDiv(const bool tab[]){
 		}
 	}
 }
+// Le warning est présent car le return est englobé dans une condition qui se
+// trouve dans une boucle, le compilateur propse d'ajouter un return 0; bien qu'on
+// entre toujours dans la boucle for qui contient le return.

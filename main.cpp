@@ -39,24 +39,23 @@ int main() {
    // Décalaration constante
    //--------------------------------------
 
-   const unsigned int   MIN         = 2;        //valeur minimum testSaisie
-   const unsigned int   MAX         = 100;      //valeur maximum testSaisie
-   const bool           valeur      = true;     //valeur pour l'initialisatio
-   const int            space       = 3;        //espace pour le setw()
-   const int            nbcolonne  = 10;        //définir taille affichage tableau
+   const unsigned int   MIN         =    2;    //valeur minimum testSaisie
+   const unsigned int   MAX         =  100;    //valeur maximum testSaisie
+   const int            space       =    3;    //espace pour le setw()
+   const int            nbcolonne   =   10;    //définir taille affichage tableau
+	const bool           valeur      = true;    //initTableau
 
 
    //--------------------------------------
-   // Saisie User et cération tableau
+   // Saisie utilisateur et création tableau
    //--------------------------------------
 
-   cout << "Nombre de valeur [" << MIN << " - " << MAX << "] : ";
+   cout << "Nombre de valeurs [" << MIN << " - " << MAX << "] : ";
    size_t taille = size_t(testSaisie(MIN, MAX));
 	bool tab[taille];
 
-
    //--------------------------------------
-   // init tableau et affichage
+   // Initialisation tableau et affichage
    //--------------------------------------
 
    cout << endl << "initialisation du tableau... " << endl;
@@ -64,7 +63,7 @@ int main() {
    afficherCribles(tab, taille, nbcolonne, space); //affichage du tableau
 
    //--------------------------------------
-   // modif tableau et affichage
+   // Modification tableau et affichage
    //--------------------------------------
 
    cout << endl << "modification du tableau... " << endl;
@@ -72,12 +71,12 @@ int main() {
 	afficherCribles(tab, taille, nbcolonne, space); //affichage du tableau
 
    //--------------------------------------
-   // affichage liste nombre premier
+   // Affichage liste des nombres premiers
    //--------------------------------------
 
    cout << endl << "Il y a " << countTrueElement(tab, taille)
         << " nombre premier" << endl;
-   //liste de tout les nombres premier
+   //liste de tout les nombres premiers
    listBoolElement(tab, taille, nbcolonne , space, valeur);
 
    //--------------------------------------
