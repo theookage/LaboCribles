@@ -5,7 +5,7 @@ Nom du Labo    : Labo 6 - Cribles
 
 Auteur(s)      : Grégoire Guyot et Théo Coutaudier
 
-Date creation  : 10-11-2021
+Date creation  : 19-11-2021
 
 Description    : Utilise le théorème de Erathostène pour cribler le tableau et
  					  mettre à false les nombre qui ne sont pas premier. Commence par 2
@@ -26,7 +26,7 @@ Compilateur    : Mingw-w64 g++ 11.2.0
 #include <iostream>
 
 /// Nom : criblage
-/// But : crible le tableau en commençant par 2
+/// But : crible le tableau en commençant par la valeur 2
 ///
 /// \param tab le tableau à cribler
 /// \param taille la taille du tableau à cribler

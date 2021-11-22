@@ -41,7 +41,7 @@ int main() {
 
    const unsigned int   MIN         = 2;        //valeur minimum testSaisie
    const unsigned int   MAX         = 100;      //valeur maximum testSaisie
-   const bool           valeur      = true;     //initTableau
+   const bool           valeur      = true;     //valeur pour l'initialisatio
    const int            space       = 3;        //espace pour le setw()
    const int            nbcolonne  = 10;        //définir taille affichage tableau
 
@@ -60,7 +60,7 @@ int main() {
 
    cout << endl << "initialisation du tableau... " << endl;
    initTableau(tab, taille, valeur); //initialisation du tableau
-   afficherCribles(tab, taille, nbcolonne, space); //affichage du tableau
+   afficherCribles(tab, taille, taille, space); //affichage du tableau
 
    //--------------------------------------
    // modif tableau et affichage

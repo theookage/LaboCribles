@@ -21,6 +21,8 @@ Compilateur    :  Mingw-w64 g++ 11.1.0
 using namespace std;
 
 void initTableau(bool tab[], size_t taille, bool valeur) {
+
+   //initalise chaque case du tableau à valeur
    for (size_t i = 0; i < taille; ++i) {
       tab[i] = valeur;
    }

@@ -3,9 +3,9 @@
 Nom du fichier :  initTableau.h
 Nom du labo    :  Labo 6 - Cribles
 
-Auteur(s)      :  Théo Coutaudier
+Auteur(s)      :  Théo Coutaudier et Grégoire Guyot
 
-Date creation  :  12-11-2021
+Date creation  :  19-11-2021
 
 Description    :  Ajoute une valeur par défault les cases du tableau
 

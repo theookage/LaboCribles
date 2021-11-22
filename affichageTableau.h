@@ -5,7 +5,7 @@ Nom du Labo    : Labo 6 - Cribles
 
 Auteur(s)      : Grégoire Guyot et Théo Coutaudier
 
-Date creation  : 10-11-2021
+Date creation  : 19-11-2021
 
 Description    : Affiche un tableau de bool en affichant un 'O' lorsque la valeur
                  est true et 'X' lorsque la valeur est false.
