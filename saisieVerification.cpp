@@ -1,22 +1,22 @@
 /*
 -----------------------------------------------------------------------------------
-Nom du fichier : saisieIsCorrect.cpp
+Nom du fichier : saisieVerification.cpp
 
-Nom du labo : 05 Chrono
+Nom du labo    : Labo 6 - Cribles
 
-Auteur(s) : Théo Coutaudier Keya Dessasa
+Auteur(s)      :  Grégoire Guyot et Théo Coutaudier
 
-Date creation : 12.11.2021
+Date creation  : 12.11.2021
 
-Description : Vérifie que la saisie de l'utilisateur est valide et conforme à la
-saisie demandés
+Description    : Vérifie que la saisie de l'utilisateur est valide et conforme à la
+                 saisie demandés
 
-Remarque(s) : - Vérifie si la valeur est du bon type
-              - Vérifie si la valeur est dans les bonnes bornes
-              - Si la valeur est fausse alors un message d'erreur s'affiche
-                et l'utilisateur doit resaisir une valeur
+Remarque(s)    : - Vérifie si la valeur est du bon type
+                 - Vérifie si la valeur est dans les bonnes bornes
+                 - Si la valeur est fausse alors un message d'erreur s'affiche
+                   et l'utilisateur doit resaisir une valeur
 
-Compilateur : Mingw-w64 g++ 11.1.0
+Compilateur : Mingw-w64 g++ 11.2.0
 -----------------------------------------------------------------------------------
 */
 

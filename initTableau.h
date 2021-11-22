@@ -1,6 +1,6 @@
 /*
 -----------------------------------------------------------------------------------
-Nom du fichier :  saisieIsCorrect.cpp
+Nom du fichier :  initTableau.h
 Nom du labo    :  Labo 6 - Cribles
 
 Auteur(s)      :  Théo Coutaudier
@@ -8,7 +8,6 @@ Auteur(s)      :  Théo Coutaudier
 Date creation  :  12-11-2021
 
 Description    :  Ajoute une valeur par défault les cases du tableau
-
 
 Remarque(s)    :  Ne peut remplir que les valeurs par défault true ou false
 

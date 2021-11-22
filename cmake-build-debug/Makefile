@@ -47,19 +47,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files (x86)\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "C:\Program Files (x86)\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\HEIG\PRG\CLionProjects\LaboCribles
+CMAKE_SOURCE_DIR = C:\HEIG-VD\PRG1-C-C2\PRG1\LaboCribles
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\HEIG\PRG\CLionProjects\LaboCribles\cmake-build-debug
+CMAKE_BINARY_DIR = C:\HEIG-VD\PRG1-C-C2\PRG1\LaboCribles\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -67,7 +67,7 @@ CMAKE_BINARY_DIR = C:\HEIG\PRG\CLionProjects\LaboCribles\cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"C:\Program Files (x86)\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -77,7 +77,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"C:\Program Files (x86)\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -86,9 +86,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\HEIG\PRG\CLionProjects\LaboCribles\cmake-build-debug\CMakeFiles C:\HEIG\PRG\CLionProjects\LaboCribles\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\HEIG-VD\PRG1-C-C2\PRG1\LaboCribles\cmake-build-debug\CMakeFiles C:\HEIG-VD\PRG1-C-C2\PRG1\LaboCribles\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\HEIG\PRG\CLionProjects\LaboCribles\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\HEIG-VD\PRG1-C-C2\PRG1\LaboCribles\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -127,6 +127,30 @@ LaboCribles: cmake_check_build_system
 LaboCribles/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LaboCribles.dir\build.make CMakeFiles/LaboCribles.dir/build
 .PHONY : LaboCribles/fast
+
+CountListTableau.obj: CountListTableau.cpp.obj
+.PHONY : CountListTableau.obj
+
+# target to build an object file
+CountListTableau.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LaboCribles.dir\build.make CMakeFiles/LaboCribles.dir/CountListTableau.cpp.obj
+.PHONY : CountListTableau.cpp.obj
+
+CountListTableau.i: CountListTableau.cpp.i
+.PHONY : CountListTableau.i
+
+# target to preprocess a source file
+CountListTableau.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LaboCribles.dir\build.make CMakeFiles/LaboCribles.dir/CountListTableau.cpp.i
+.PHONY : CountListTableau.cpp.i
+
+CountListTableau.s: CountListTableau.cpp.s
+.PHONY : CountListTableau.s
+
+# target to generate assembly for a file
+CountListTableau.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LaboCribles.dir\build.make CMakeFiles/LaboCribles.dir/CountListTableau.cpp.s
+.PHONY : CountListTableau.cpp.s
 
 InitTableau.obj: InitTableau.cpp.obj
 .PHONY : InitTableau.obj
@@ -200,30 +224,6 @@ checkNbPremier.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LaboCribles.dir\build.make CMakeFiles/LaboCribles.dir/checkNbPremier.cpp.s
 .PHONY : checkNbPremier.cpp.s
 
-countListTableau.obj: countListTableau.cpp.obj
-.PHONY : countListTableau.obj
-
-# target to build an object file
-countListTableau.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LaboCribles.dir\build.make CMakeFiles/LaboCribles.dir/countListTableau.cpp.obj
-.PHONY : countListTableau.cpp.obj
-
-countListTableau.i: countListTableau.cpp.i
-.PHONY : countListTableau.i
-
-# target to preprocess a source file
-countListTableau.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LaboCribles.dir\build.make CMakeFiles/LaboCribles.dir/countListTableau.cpp.i
-.PHONY : countListTableau.cpp.i
-
-countListTableau.s: countListTableau.cpp.s
-.PHONY : countListTableau.s
-
-# target to generate assembly for a file
-countListTableau.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LaboCribles.dir\build.make CMakeFiles/LaboCribles.dir/countListTableau.cpp.s
-.PHONY : countListTableau.cpp.s
-
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -281,6 +281,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... LaboCribles
+	@echo ... CountListTableau.obj
+	@echo ... CountListTableau.i
+	@echo ... CountListTableau.s
 	@echo ... InitTableau.obj
 	@echo ... InitTableau.i
 	@echo ... InitTableau.s
@@ -290,9 +293,6 @@ help:
 	@echo ... checkNbPremier.obj
 	@echo ... checkNbPremier.i
 	@echo ... checkNbPremier.s
-	@echo ... countListTableau.obj
-	@echo ... countListTableau.i
-	@echo ... countListTableau.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

@@ -1,4 +1,4 @@
-"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_CXX_FLAGS=-Wall -Wextra -Wconversion -Wsign-conversion -pedantic" -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - MinGW Makefiles" C:\HEIG\PRG\CLionProjects\LaboCribles
+"C:\Program Files (x86)\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_CXX_FLAGS=-Wall -Wextra -Wconversion -Wsign-conversion -pedantic" -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - MinGW Makefiles" C:\HEIG-VD\PRG1-C-C2\PRG1\LaboCribles
 -- Configuring done
 -- Generating done
--- Build files have been written to: C:/HEIG/PRG/CLionProjects/LaboCribles/cmake-build-debug
+-- Build files have been written to: C:/HEIG-VD/PRG1-C-C2/PRG1/LaboCribles/cmake-build-debug

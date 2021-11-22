@@ -1,6 +1,6 @@
 /*
 -----------------------------------------------------------------------------------
-Nom du fichier :  saisieIsCorrect.cpp
+Nom du fichier :  initTableau.cpp
 Nom du labo    :  Labo 6 - Cribles
 
 Auteur(s)      :  Théo Coutaudier et Grégoire Guyot
@@ -22,6 +22,6 @@ using namespace std;
 
 void initTableau(bool tab[], size_t taille, bool valeur) {
    for (size_t i = 0; i < taille; ++i) {
-      tab[i]= valeur;
+      tab[i] = valeur;
    }
 }

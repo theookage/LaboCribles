@@ -24,7 +24,7 @@ Compilateur    : Mingw-w64 g++ 11.2.0
 
 #include <cstdlib>
 #include <iostream>
-#include <limits>
+#include <limits> // utilisée pour vider le buffer avec numeric_limits<streamsize>
 #include "affichageTableau.h"
 #include "countListTableau.h"
 #include "saisieVerification.h"
@@ -51,7 +51,7 @@ int main() {
    //--------------------------------------
 
    cout << "Nombre de valeur [" << MIN << " - " << MAX << "] : ";
-   size_t taille = size_t(testSaisie(MIN, MAX));
+   auto taille = size_t(testSaisie(MIN, MAX));
 	bool tab[taille];
 
    //--------------------------------------
@@ -83,7 +83,7 @@ int main() {
    // Fin de programme
    //--------------------------------------
 
-	cout << endl << "Merci d'avoir joue. Appuyez sur ENTER pour terminer le "
+	cout << endl << "Merci utilise le programme. Appuyez sur ENTER pour terminer le "
                    "programme...";
 	cin.ignore(numeric_limits<streamsize>::max(), '\n');
 	return EXIT_SUCCESS;

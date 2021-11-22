@@ -7,9 +7,10 @@ Auteur(s)      : Grégoire Guyot et Théo Coutaudier
 
 Date creation  : 10-11-2021
 
-Description    :
+Description    : Affiche un tableau de bool en affichant un 'O' lorsque la valeur
+                 est true et 'X' lorsque la valeur est false.
 
-Remarque(s)    :
+Remarque(s)    : n/a
 
 Compilateur    : Mingw-w64 g++ 11.2.0
 -----------------------------------------------------------------------------------
@@ -28,4 +29,3 @@ void afficherCribles(const bool tab[], size_t taille, int nbColonnes, int space)
 		}
 		cout << endl;
 }
-// fontionne avec 5 10

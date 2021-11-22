@@ -1,6 +1,6 @@
 /*
 -----------------------------------------------------------------------------------
-Nom du fichier :  main.cpp
+Nom du fichier :  coutListTableau.cpp
 Nom du Labo    :  Labo 6 - Cribles
 
 Auteur(s)      :  Grégoire Guyot et Théo Coutaudier
@@ -12,7 +12,7 @@ Description    :  La fonction countTrueElement compte le nombre de valeur à tru
                   La fonction listTrueElement liste les cases du tableau qui sont
                   à true.
 
-Remarque(s)    :
+Remarque(s)    : n/a
 
 Compilateur    :  Mingw-w64 g++ 11.2.0
 -----------------------------------------------------------------------------------
