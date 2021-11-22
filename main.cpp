@@ -51,8 +51,9 @@ int main() {
    //--------------------------------------
 
    cout << "Nombre de valeur [" << MIN << " - " << MAX << "] : ";
-   auto taille = size_t(testSaisie(MIN, MAX));
+   size_t taille = size_t(testSaisie(MIN, MAX));
 	bool tab[taille];
+
 
    //--------------------------------------
    // init tableau et affichage
